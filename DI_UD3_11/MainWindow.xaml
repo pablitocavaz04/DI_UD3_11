@@ -1,0 +1,55 @@
+﻿<Window x:Class="DI_UD3_11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DI_UD3_11"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!--
+    <Grid Background="Gray">
+        <TextBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                 SpellCheck.IsEnabled="True" Language="es-ES" 
+                 VerticalScrollBarVisibility="Auto" AcceptsReturn="True" />
+    </Grid>-->
+    <!--
+    <Grid>
+        <TextBox Name="inputTextBox" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
+                 AcceptsReturn="True" VerticalScrollBarVisibility="Auto" />
+        <TextBox Name="outputTextBox" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" 
+                 IsReadOnly="True" Text="Has seleccionado XXX" />
+    </Grid>-->
+    
+    <!--EJERCICIO 3
+    <Grid>
+        <Button Content="Hover over me" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                Background="Green" Foreground="Red" MouseEnter="Button_MouseEnter"/>
+    </Grid>-->
+
+    <!--EJERCICIO 4
+    <Grid>
+        <TextBox Name="textBox" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button Content="Botón" Padding="10" VerticalAlignment="Bottom" HorizontalAlignment="Center"
+                Icon="Icon.png" Click="Button_Click"/>
+    </Grid>-->
+    
+    <!-- EJERCICIO 5
+    <Grid>
+        <CheckBox Name="checkBox" Content="Todos los módulos" Checked="CheckBox_Checked" 
+                  Unchecked="CheckBox_Unchecked"/>
+        <CheckBox Name="module1" Content="Módulo 1"/>
+        <CheckBox Name="module2" Content="Módulo 2"/>
+        <CheckBox Name="module3" Content="Módulo 3"/>
+    </Grid>-->
+
+    <!-- EJERCICIO 6
+    <Grid>
+        <TextBlock Name="textBlock">
+            <Run Text="Texto en " FontWeight="Bold" Foreground="Blue"/>
+            <Run Text="negrita y cursiva" FontStyle="Italic" Foreground="Red"/>
+        </TextBlock>
+        <CheckBox Name="checkBox" Content="Mostrar texto alternativo"/>
+        <Button Name="updateButton" Content="Actualizar texto" Click="UpdateButton_Click"/>
+    </Grid>
+    -->
+</Window>
